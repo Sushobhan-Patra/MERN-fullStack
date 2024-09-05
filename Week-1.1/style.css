@@ -15,7 +15,7 @@ body {
 nav {
   display: flex;
   margin: 20px;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   justify-content: space-evenly;
   gap: 10px;
@@ -24,12 +24,13 @@ nav {
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
+  color: #9ba3b4;
 }
 .navbar-brand {
   font-size: 25px;
   letter-spacing: -0.2px;
   font-weight: 600;
-  /* color: azure; */
+  color: #e9eaeb;
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -116,4 +117,93 @@ button {
 .pop-up-message {
   display: flex;
   justify-content: center;
+  margin: 8px;
+  color: #9ba3b4;
+  font-size: 14px;
+  font-weight: 500;
+  gap: 20px;
+}
+.pop-up-message a {
+  color: #0078d4;
+  text-decoration: underline;
+}
+.cross button {
+  color: #9ba3b4;
+  font-size: 14px;
+  font-weight: 500;
+}
+section {
+  display: flex;
+  margin: 32px 99px 92px;
+  justify-content: space-evenly;
+}
+.left-body {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  /* align-items: center; */
+}
+.right-body {
+  width: auto;
+  height: auto;
+}
+
+.right-body img {
+  width: 800px;
+  /* align-items: center; */
+}
+.special-message {
+  width: 330px;
+  height: 35px;
+  background-color: #ffffff0a;
+  padding: 8px 12px;
+  border: 1px solid #3b3939;
+  border-radius: 15px;
+  color: #9ba3b4;
+  margin: 0px 0px 8px;
+  font-size: 14px;
+}
+.heading span {
+  font-weight: 550;
+  font-size: 56px;
+  margin: 10px 0px 32px;
+}
+.downloads-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-content: space-between;
+   */
+  gap: 20px;
+}
+.downloads-button .Downloads {
+  width: 270px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #3b3939;
+  padding: 5px 12px;
+  /* border: 1px solid #0e0e0e; */
+  background-color: #0078d4;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.down-for-other {
+  color: #9ba3b4;
+}
+.down-for-other a {
+  font-size: 16px;
+  text-decoration: underline;
+  color: #0078d4;
+}
+.licencing {
+  font-size: 11px;
+  color: #9ba3b4;
+}
+.licencing a {
+  text-decoration: underline;
+  color: #0078d4;
 }
